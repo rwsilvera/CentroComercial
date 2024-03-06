@@ -30,16 +30,10 @@ public class Persona extends Socio {
     @Column(name = "SEXO",length = 50)
     @Enumerated(EnumType.STRING)
     private Sexo sexo;
-    @Column(name = "CELULAR",length = 20)
-    private String celular;
-    @Column(name = "TELEFONO",nullable = true,length = 20)
-    private String telefono;
-    @Column(name = "EMAIL",nullable = true,length = 70)
-    private String email;
-    @Column(name = "DIRECCION",length = 100)
-    private String direccion;
     @Column(name = "FECHA_NACIMIENTO")
     private LocalDate fechaNacimiento;
+
+
 
 
 

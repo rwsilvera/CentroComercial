@@ -23,6 +23,14 @@ public class Socio {
     private LocalDate fechaAlta;
     @Column(name = "FECHA_BAJA")
     private LocalDate fechaBaja;
+    @Column(name = "CELULAR",length = 20)
+    private String celular;
+    @Column(name = "TELEFONO",nullable = true,length = 20)
+    private String telefono;
+    @Column(name = "EMAIL",nullable = true,length = 70)
+    private String email;
+    @Column(name = "DIRECCION",length = 100)
+    private String direccion;
 
 
 
